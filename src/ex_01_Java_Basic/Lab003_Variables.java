@@ -2,6 +2,13 @@ package ex_01_Java_Basic;
 
 public class Lab003_Variables {
     public static void main(String[] args) {
+        //comments single line
+
+        /*bloc comment
+        * used for multiple lines
+        * sarthak
+        * -----*/
+
         //different types of variable in java
         boolean b=true; // or false,
 //        boolean b1=True; this will give error as True or False, caps is not applicable
@@ -24,5 +31,8 @@ public class Lab003_Variables {
         System.out.printf("Decimal formating: %.7f%n",d); //formating up to 7 decimal places
         String s1="Asd";
         System.out.println("String: "+s1);
+
+        final float pi=3.14f; //constant: value cannot be changed throughout the program
+        /* pi++; //error */
     }
 }
