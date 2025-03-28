@@ -1,6 +1,6 @@
 package ex_01_Java_Basic;
 
-import java.util.Arrays;
+
 
 public class Lab002_PrintFexample {
     public static void main(String[] args) {
