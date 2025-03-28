@@ -14,6 +14,6 @@ public class Lab002_PrintFexample {
         System.out.printf("%dx%d = %d%n",a,b,(a*b++));
         System.out.printf("%dx%d = %d%n",a,b,(a*b++));
         System.out.printf("%dx%d = %d%n",a,b,(a*b++));
-        System.out.printf("%dx%d = %d%n",a,b,(a*b++));
+        System.out.printf("%dx%d = %d%n",a,b,(a*b));
     }
 }
