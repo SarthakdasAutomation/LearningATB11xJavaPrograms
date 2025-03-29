@@ -34,5 +34,25 @@ public class Lab003_Variables {
 
         final float pi=3.14f; //constant: value cannot be changed throughout the program
         /* pi++; //error */
+
+        //escape sequence
+        char newLine='\n';
+        char tab_line='\t';
+        char backspace='\b';
+        char carriage_return='\r';
+
+        System.out.println("Sarthak Das");
+        System.out.println("Sarthak"+newLine+"Das");
+        System.out.println("Sarthak"+tab_line+"Das");
+        System.out.println("Sarthak"+backspace+"Das");
+        System.out.println("Sarthak"+carriage_return+"Das"); //use to remove the 1st string, here in case Sarthak will get removed
+
+        //new line printing
+        System.out.println("Hi, This is 1st line\n This is second line \n This is 3rd line ");
+
+        //below 3 are just for knowledge
+        int binary_num=0b1010; //storing binary number, start with 0b, number =10
+        int octal_num=0101; //octal use 0: number8
+        int hexaDec=0Xface; //base 16
     }
 }
