@@ -25,6 +25,7 @@ public class Lab011_ForLoop {
         for(;i<10;i++){  //only initialization part can be outside loop
             System.out.println(i);
         }
-
+        //continue: skip the below code and move to next iteration
+        //break: move out of loop
     }
 }
