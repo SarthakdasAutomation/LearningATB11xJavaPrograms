@@ -24,10 +24,16 @@ public class Lab004_Operators {
         System.out.println(a+b);
         System.out.println("Sarthak"+"Das");
 
-        //exception case --
+        //exception case
         String fn="Sarthak";
         String ln="Das";
         System.out.println(fn+ln+a+b); //-- as 1st two are string, it takes rest as string
         System.out.println(a+b+fn+ln); // as on string arithmetic operation is not possible
+
+        //ascii add
+        int q='A',r='R';
+        System.out.println(q+r); //result will give value in int as char is also an int(ascii conversion)
+        System.out.println('A'==65); //true; ascii value validation
+        System.out.println('A'+10); //75
     }
 }
