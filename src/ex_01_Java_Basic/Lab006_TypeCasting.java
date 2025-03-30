@@ -20,5 +20,7 @@ public class Lab006_TypeCasting {
         System.out.println(sum);
         float sum2=price+gst;
         System.out.println(sum2); //always take the larger datatype to store
+
+
     }
 }
